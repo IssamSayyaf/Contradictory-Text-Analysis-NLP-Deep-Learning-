@@ -50,7 +50,7 @@ The dataset contains a considerable number of samples, among which English sampl
 For the English language, the distribution of the three classes in the dataset is nearly uniform, indicating that there is a balanced representation of sentence pairs labeled as Entailment, Neutral, and Contradiction. This suggests that the dataset provides a fair representation of the relationship between sentence pairs in the English language and can be effectively used to train models for the task of Contradictory Text Analysis in this language as shown in Figure 2.
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1-MWiR2zllSEPMTS2txhmyz8PJmUb29TE" alt="alt text" width="width" height="height" />
+  <img src="https://drive.google.com/uc?id=1-MWiR2zllSEPMTS2txhmyz8PJmUb29TE" alt="alt text" width="width" height="height" />
   <br>
   <em>Figure 2: The distribution every class in English Language</em>
 </p>
