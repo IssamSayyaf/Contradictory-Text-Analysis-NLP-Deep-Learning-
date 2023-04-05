@@ -30,4 +30,9 @@ The dataset contains premise-hypothesis pairs in fifteen different languages, na
 
 
 ![Screenshot of a Google Doc](https://drive.google.com/uc?id=1-LX56EaueXtVfO6tC75LRD4OhrMmelqW)
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1-LX56EaueXtVfO6tC75LRD4OhrMmelqW" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Image caption</em>
+</p>
 
