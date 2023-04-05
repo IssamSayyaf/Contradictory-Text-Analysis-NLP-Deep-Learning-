@@ -29,4 +29,5 @@ we know that it is untrue as it contradicts the information in the premise. Henc
 The dataset contains premise-hypothesis pairs in fifteen different languages, namely Arabic, Bulgarian, Chinese, German, Greek, English, Spanish, French, Hindi, Russian, Swahili, Thai, Turkish, Urdu, and Vietnamese. We are interested only with the English pairs.
 
 
-![The dataset Distribution](https://drive.google.com/file/d/1-LX56EaueXtVfO6tC75LRD4OhrMmelqW/view?usp=sharing)
+![Screenshot of a Google Doc](https://drive.google.com/uc?id=1-LX56EaueXtVfO6tC75LRD4OhrMmelqW)
+
