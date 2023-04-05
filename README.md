@@ -1,5 +1,5 @@
 # Contradictory-Text-Analysis-NLP-Deep-Learning-
-**This project done by Ahmad Mahmod and I (Mohamad Issam Sayyaf) \\**
+**This project done by Ahmad Mahmod and I (Mohamad Issam Sayyaf).**
 
 
 We are conducting a classification task on pairs of sentences, which consist of a premise and a hypothesis. The task involves categorizing each pair into one of three categories - entailment, contradiction, or neutral.
