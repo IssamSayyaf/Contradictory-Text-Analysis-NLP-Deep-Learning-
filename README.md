@@ -54,3 +54,21 @@ For the English language, the distribution of the three classes in the dataset i
   <br>
   <em>Figure 2: The distribution every class in English Language</em>
 </p>
+
+
+We have computed some statistical information on the samples in terms of the number of characters present in them. Specifically, we have calculated the mean, standard deviation, and count of characters across all the samples in the dataset as shown in Figure 3.
+The mean of characters across all samples provides a measure of the central tendency of the dataset and indicates the typical length of the samples. The standard deviation of characters provides a measure of the dispersion of the data around the mean and indicates how much the lengths of the samples vary from the typical length. The count of characters provides information on the total number of characters present in the dataset.
+
+
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1-N5O45jUOpQHNOOM0ePDyyy4BnNnPwFX" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Figure 3: The statistical study for the dataset.</em>
+</p>
+
+
+
+
+
+
+
