@@ -27,3 +27,6 @@ For the third hypothesis,
 we know that it is untrue as it contradicts the information in the premise. Hence, this pair is related by contradiction.
 
 The dataset contains premise-hypothesis pairs in fifteen different languages, namely Arabic, Bulgarian, Chinese, German, Greek, English, Spanish, French, Hindi, Russian, Swahili, Thai, Turkish, Urdu, and Vietnamese. We are interested only with the English pairs.
+
+
+![The dataset Distribution](https://drive.google.com/open?id=1-LX56EaueXtVfO6tC75LRD4OhrMmelqW&authuser=issamsayyaf97%40gmail.com&usp=drive_fs)
