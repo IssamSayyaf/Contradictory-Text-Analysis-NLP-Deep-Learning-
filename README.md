@@ -38,13 +38,14 @@ The dataset contains premise-hypothesis pairs in fifteen different languages, na
 Dataset Descriptions:
 The dataset provided for Task 2 of the Contradictory Text Analysis competition is a crucial component of the competition. In this task, the dataset contains different couples of sentences (a premise and a hypothesis) in different languages. Each couple has a label of one out of three classes:
 
-Entailment: the two sentences a related in meaning
-Neutral: the sentences are neither related nor contraries
-Contradiction: the sentences are contraries in meaning
+-Entailment: the two sentences a related in meaning
+-Neutral: the sentences are neither related nor contraries
+-Contradiction: the sentences are contraries in meaning
 The data set contains two csv files:
 
-train.csv: This file contains the ID, premise, hypothesis, and label, as well as the language of the text and its two-letter abbreviation
-test.csv: This file contains the ID, premise, hypothesis, language, and language abbreviation, without labels.
+-train.csv: This file contains the ID, premise, hypothesis, and label, as well as the language of the text and its two-letter abbreviation
+-test.csv: This file contains the ID, premise, hypothesis, language, and language abbreviation, without labels.
+
 The dataset contains a considerable number of samples, among which English samples represent a dominant portion of 56.7% as shown in Figure 12. The Task will develop a model, which will classify only English sentences couples in one of the mentioned classes.
 
 For the English language, the distribution of the three classes in the dataset is nearly uniform, indicating that there is a balanced representation of sentence pairs labeled as Entailment, Neutral, and Contradiction. This suggests that the dataset provides a fair representation of the relationship between sentence pairs in the English language and can be effectively used to train models for the task of Contradictory Text Analysis in this language as shown in Figure 13.
