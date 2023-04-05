@@ -65,6 +65,7 @@ The mean of characters across all samples provides a measure of the central tend
   <br>
   <em>Figure 3: The statistical study for the dataset.</em>
 </p>
+These statistics can be useful in understanding the properties of the dataset and in developing models that can handle samples of different lengths effectively. For instance, models that are sensitive to the length of the samples may require additional preprocessing or architecture modifications to handle samples with varying lengths effectively. Overall, the statistical information on the number of characters in the dataset can provide valuable insights for developing effective models for Contradictory Text Analysis. 
 
 
 
