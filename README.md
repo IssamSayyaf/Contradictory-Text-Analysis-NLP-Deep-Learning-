@@ -2,7 +2,7 @@
 **This project done by Ahmad Mahmod and I (Mohamad Issam Sayyaf).**
 
 
-We are conducting a classification task on pairs of sentences, which consist of a premise and a hypothesis. The task involves categorizing each pair into one of three categories - entailment, contradiction, or neutral. To illustrate this, let's consider an example using the following premise:
+ We are conducting a classification task on pairs of sentences, which consist of a premise and a hypothesis. The task involves categorizing each pair into one of three categories - entailment, contradiction, or neutral. To illustrate this, let's consider an example using the following premise:
 
 **"He came, he opened the door and I remember looking back and seeing the expression on his face, and I could tell that he was disappointed."**
 
