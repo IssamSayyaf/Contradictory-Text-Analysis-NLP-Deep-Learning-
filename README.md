@@ -124,7 +124,11 @@ The output of the RoBERTa model is passed through two parallel layers: global_av
 
 The model is trained using a cross-entropy loss function and optimized using the Adam optimizer. During training, the weights of the RoBERTa model are fine-tuned on a smaller labeled dataset specific to the given NLP task. This process adapts the general language model to the specific task, resulting in better performance on the task.
 
-Overall, the model architecture takes advantage of the state-of-the-art RoBERTa language model and fine-tuning techniques to achieve high performance on the classification task. The self-attention mechanism in the Transformer architecture allows the model to take into account the entire context of the input sequence, making it suitable for handling long sequences. The parallel layers and fully connected dense layers provide a way to reduce the spatial dimensions of the feature maps and perform classification on the fixed-length vectors. The use of dropout layers and the softmax activation function help prevent overfitting and produce a probability distribution over the classes.
+Overall, the model architecture is shown by Figure 5, takes advantage of the state-of-the-art RoBERTa language model and fine-tuning techniques to achieve high performance on the classification task. The self-attention mechanism in the Transformer architecture allows the model to take into account the entire context of the input sequence, making it suitable for handling long sequences. The parallel layers and fully connected dense layers provide a way to reduce the spatial dimensions of the feature maps and perform classification on the fixed-length vectors. The use of dropout layers and the softmax activation function help prevent overfitting and produce a probability distribution over the classes.
 
-
+<p align="center">
+  <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/The%20Architecture%20of%20the%20proposed%20model.png" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Figure 4: The Architecture of the proposed model.</em>
+</p>
 
