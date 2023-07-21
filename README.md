@@ -105,7 +105,11 @@ The key innovation in the Transformer architecture is the self-attention mechani
   <em>Figure 4: The Architecture of the proposed model.</em>
 </p>
 
-
+The RoBERTa model is available in several sizes ranging from small to large, with varying numbers of layers and hidden units. In this model architecture, the pre-trained RoBERTa base model is used, which has 12 transformer layers.
+The model takes two inputs:
+• Input_ids: This refers to the tokenized input sequence where each token is mapped to its corresponding token ID in the RoBERTa vocabulary. During tokenization, the input sequence is first split into words, and each word is then split into sub words using Byte Pair Encoding (BPE). Each sub word is then mapped to its corresponding token ID using the RoBERTa tokenizer's vocabulary.
+• Attention_mask: In natural language processing (NLP), the attention mechanism is used to weigh the importance of each word in a sentence when processing the sentence. The attention mask is a binary mask used to indicate which tokens in the input sequence should be attended to by the model, and which tokens should be ignored.
+These inputs are then fed into the RoBERTa model, which is pre-trained with weights from a large corpus of text to learn general language patterns and features. The model then outputs a sequence of hidden states, one for each input token.
 
 
 
