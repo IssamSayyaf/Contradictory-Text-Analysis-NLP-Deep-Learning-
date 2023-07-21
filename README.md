@@ -67,6 +67,28 @@ The mean of characters across all samples provides a measure of the central tend
 </p>
 These statistics can be useful in understanding the properties of the dataset and in developing models that can handle samples of different lengths effectively. For instance, models that are sensitive to the length of the samples may require additional preprocessing or architecture modifications to handle samples with varying lengths effectively. Overall, the statistical information on the number of characters in the dataset can provide valuable insights for developing effective models for Contradictory Text Analysis. 
 
+Methods
+To design an efficient model for Contradictory Text Analysis, we establish a pipeline that consists of the following steps:
+
+i. Preprocessing:
+The preprocessing pipeline for the Contradictory Text Analysis dataset is summarized as follows:
+
+Read the dataset:
+Load the dataset from a CSV file and store it in a panda DataFrame.
+
+Extract English Sentences:
+Extract English sentences from the train and test datasets based on the language's two-letter abbreviation label provided in the CSV files. This will result in a sample size of 6869 sentences for training.
+
+Split the Dataset:
+Split the data into training, validation, and test sets with 70%, 25%, and 5% of the data, respectively.
+
+Tokenize the text:
+In natural language processing (NLP), a tokenizer is a tool that splits text into smaller chunks called tokens. These tokens can be individual words or groups of words that are meaningful together, such as named entities or phrases.
+
+We use the Tokenizer class provided by TensorFlow's Keras API as a text-preprocessing tool. It converts text into sequences of integers that can be fed into a neural network for further processing.
+
+By following this preprocessing pipeline, we can prepare the Contradictory Text Analysis dataset and proceed with designing and training the model architecture. After training, we can evaluate the performance of the model on the dataset.
+
 
 
 
