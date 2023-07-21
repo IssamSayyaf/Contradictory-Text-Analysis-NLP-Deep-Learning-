@@ -160,3 +160,11 @@ Overall, the results highlighted the significance of the optimizer and learning 
   <br>
   <em>Figure 6: Training Progress Evolution of Accuracy and Loss over Epochs.</em>
 </p>
+
+To evaluate the performance of the model, we analyzed the confusion matrix on the test dataset. The confusion matrix reveals the number of true positives, true negatives, false positives, and false negatives for each class in the classification task. From the confusion matrix, we can calculate the recall, precision, and F1 score for each class. The confusion matrix for our model on the test dataset is shown in Figure 7.
+
+<p align="center">
+  <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/Confusion%20Matrix%20Evaluation%20of%20Model%20Performance%20through%20Actual%20vs%20Predicted%20Classifications.png" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Figure 7: Confusion Matrix Evaluation of Model Performance through Actual vs Predicted Classifications.</em>
+</p>
