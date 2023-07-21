@@ -116,12 +116,15 @@ The model takes two inputs:
 1. **Input_ids**: This refers to the tokenized input sequence where each token is mapped to its corresponding token ID in the RoBERTa vocabulary. During tokenization, the input sequence is first split into words, and each word is then split into sub-words using Byte Pair Encoding (BPE). Each sub-word is then mapped to its corresponding token ID using the RoBERTa tokenizer's vocabulary.
 
 2. **Attention_mask**: In natural language processing (NLP), the attention mechanism is used to weigh the importance of each word in a sentence when processing the sentence. The attention mask is a binary mask used to indicate which tokens in the input sequence should be attended to by the model, and which tokens should be ignored.
-
-
+   
 These inputs are then fed into the RoBERTa model, which is pre-trained with weights from a large corpus of text to learn general language patterns and features. The model then outputs a sequence of hidden states, one for each input token.
-
 The RoBERTa model's architecture with its 12 transformer layers allows it to effectively capture contextual information and semantic representations from the input text, enabling it to perform well on various downstream NLP tasks.
 
+The output of the RoBERTa model is passed through two parallel layers: global_average_pooling and global_max_pooling. Both operations reduce the spatial dimensions of the feature maps and produce a fixed-length vector for each feature map. These vectors are then concatenated and fed into two fully connected dense layers, each with a dropout rate of 0.3, to prevent overfitting. The first dense layer has 64 units, and the last dense layer has three units, which is equal to the number of classification classes. The output of the last dense layer is passed through a softmax activation function, which outputs a probability distribution over the three classes.
+
+The model is trained using a cross-entropy loss function and optimized using the Adam optimizer. During training, the weights of the RoBERTa model are fine-tuned on a smaller labeled dataset specific to the given NLP task. This process adapts the general language model to the specific task, resulting in better performance on the task.
+
+Overall, the model architecture takes advantage of the state-of-the-art RoBERTa language model and fine-tuning techniques to achieve high performance on the classification task. The self-attention mechanism in the Transformer architecture allows the model to take into account the entire context of the input sequence, making it suitable for handling long sequences. The parallel layers and fully connected dense layers provide a way to reduce the spatial dimensions of the feature maps and perform classification on the fixed-length vectors. The use of dropout layers and the softmax activation function help prevent overfitting and produce a probability distribution over the classes.
 
 
 
