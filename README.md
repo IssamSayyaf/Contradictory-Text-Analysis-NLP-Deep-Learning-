@@ -95,14 +95,14 @@ This code creates a Dataset object from the training encodings and labels. It fi
 
 The model architecture uses the RoBERTa language model, which is a state-of-the-art language model based on the Transformer architecture. It is an improvement over the original BERT model, developed by Facebook AI in 2019, and has shown better generalization and higher performance on downstream NLP tasks.
 
-The RoBERTa model uses the same architecture as BERT as shown in Figure 15, consisting of an encoder composed of several Transformer blocks. Each Transformer block consists of a self-attention mechanism and a feedforward neural network.
+The RoBERTa model uses the same architecture as BERT as shown in Figure 4, consisting of an encoder composed of several Transformer blocks. Each Transformer block consists of a self-attention mechanism and a feedforward neural network.
 
 The key innovation in the Transformer architecture is the self-attention mechanism, which allows the model to weigh the importance of different words in a sequence when generating the output. The self-attention mechanism is applied to both the input (encoder) and output (decoder) sequences, allowing the model to take into account the entire context of the input sequence when generating the output.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1-N5O45jUOpQHNOOM0ePDyyy4BnNnPwFX" alt="alt text" width="width" height="height" />
+  <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/The%20architecture%20RoBERTa%20model.png" alt="alt text" width="width" height="height" />
   <br>
-  <em>Figure 3: The statistical study for the dataset.</em>
+  <em>Figure 4: The Architecture of the proposed model.</em>
 </p>
 
 
