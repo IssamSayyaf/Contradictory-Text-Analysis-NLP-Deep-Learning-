@@ -66,15 +66,9 @@ The mean of characters across all samples provides a measure of the central tend
   <em>Figure 3: The statistical study for the dataset.</em>
 </p>
 These statistics can be useful in understanding the properties of the dataset and in developing models that can handle samples of different lengths effectively. For instance, models that are sensitive to the length of the samples may require additional preprocessing or architecture modifications to handle samples with varying lengths effectively. Overall, the statistical information on the number of characters in the dataset can provide valuable insights for developing effective models for Contradictory Text Analysis. 
-
-**Methods**
-To design an efficient model for Contradictory Text Analysis, we establish a pipeline that consists of the following steps:
-
- i. Preprocessing:
- The preprocessing pipeline for the Contradictory Text Analysis dataset is summarized as follows:
  
 # Methods
-
+To design an efficient model for Contradictory Text Analysis, we establish a pipeline that consists of the following steps:
 ## Preprocessing
 
 To design an efficient model for Contradictory Text Analysis, we establish a pipeline that consists of the following steps:
@@ -93,10 +87,23 @@ In natural language processing (NLP), a tokenizer is a tool that splits text int
 
    We use the Tokenizer class provided by TensorFlow's Keras API as a text-preprocessing tool. It converts text into sequences of integers that can be fed into a neural network for further processing.
 
-By following this preprocessing pipeline, we can prepare the Contradictory Text Analysis dataset and proceed with designing and training the model architecture. After training, we can evaluate the performance of the model on the dataset.
+By following this preprocessing pipeline, we can prepare the Contradictory Text Analysis dataset and proceed with designing and training the model architecture. After training, we can evaluate the performance of the model on the dataset. We use RobertaTokenizer which is a tokenizer class provided by the Hugging Face Transformers library, is used to convert text data into numerical sequences that can be fed into a deep learning model such as BERT, RoBERTa, or other transformer-based models. It is specifically designed to work with the RoBERTa model architecture and is based on the Byte-Pair Encoding (BPE) algorithm.
+The tokenizer concatenates both premise and hypothesis sentences and tokenizes them together enabling both truncation and padding of the input sequences to ensure that they have the same length.
+This code creates a Dataset object from the training encodings and labels. It first creates a tuple of (input_ids, attention_mask) dictionary and the corresponding labels. Finally, the batch method batches the dataset with a specified batch size BATCH_SIZE. The resulting train_dataset and val_dataset is a TensorFlow dataset object that can be used for training the model.
 
+# Designing and Training the Model Architecture
 
+The model architecture uses the RoBERTa language model, which is a state-of-the-art language model based on the Transformer architecture. It is an improvement over the original BERT model, developed by Facebook AI in 2019, and has shown better generalization and higher performance on downstream NLP tasks.
 
+The RoBERTa model uses the same architecture as BERT as shown in Figure 15, consisting of an encoder composed of several Transformer blocks. Each Transformer block consists of a self-attention mechanism and a feedforward neural network.
+
+The key innovation in the Transformer architecture is the self-attention mechanism, which allows the model to weigh the importance of different words in a sequence when generating the output. The self-attention mechanism is applied to both the input (encoder) and output (decoder) sequences, allowing the model to take into account the entire context of the input sequence when generating the output.
+
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1-N5O45jUOpQHNOOM0ePDyyy4BnNnPwFX" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Figure 3: The statistical study for the dataset.</em>
+</p>
 
 
 
