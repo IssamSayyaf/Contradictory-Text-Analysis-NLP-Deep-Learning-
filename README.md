@@ -28,7 +28,7 @@ The dataset contains premise-hypothesis pairs in fifteen different languages, na
 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1-LX56EaueXtVfO6tC75LRD4OhrMmelqW" alt="alt text" width="width" height="height" />
+  <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/New%20Bitmap%20Image.bmp" alt="alt text" width="width" height="height" />
   <br>
   <em>Figure 1: The Dataset Distribution</em>
 </p>
