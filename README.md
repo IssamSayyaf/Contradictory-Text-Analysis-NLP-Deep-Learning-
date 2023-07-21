@@ -168,3 +168,5 @@ To evaluate the performance of the model, we analyzed the confusion matrix on th
   <br>
   <em>Figure 7: Confusion Matrix Evaluation of Model Performance through Actual vs Predicted Classifications.</em>
 </p>
+
+We notice that the model has the highest accuracy in predicting Contradiction sentences with an accuracy of 83.75%. Entailment and Neutral sentences, on the other hand, have accuracies of 78.5% and 75%, respectively. Additionally, we can see from the confusion matrix that the model tends to make more false positives for Neutral and Contradiction sentences compared to Entailment sentences.
