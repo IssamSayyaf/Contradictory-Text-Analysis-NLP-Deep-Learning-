@@ -131,4 +131,27 @@ Overall, the model architecture is shown by Figure 5, takes advantage of the sta
   <br>
   <em>Figure 4: The Architecture of the proposed model.</em>
 </p>
+## Results
+
+After training the model with different configurations, we evaluated the model's performance using the test dataset. The results of the experiments are summarized in the following table (Table 1).
+
+**Table 1: Model Performance with Different Configurations**
+
+| Configuration | Optimizer          | Learning Rate | Epsilon  | Accuracy |
+|--------------|--------------------|---------------|----------|----------|
+| 1            | Adam               | 1e-7          | 1e-8     | 82%      |
+| 2            | RMSprop            | 1e-6          | 1e-8     | 78%      |
+| 3            | SGD                | 1e-6          | 1e-8     | 71%      |
+
+As we can see from the table, the best configuration was the first one, which used the Adam optimizer with a learning rate of 1e-7 and an epsilon of 1e-8. This configuration achieved an accuracy of 82% on the test dataset (see Figure 17).
+
+The second configuration, which used the RMSprop optimizer with a learning rate of 1e-6 and an epsilon of 1e-8, achieved an accuracy of 78% on the test dataset. Meanwhile, the third configuration, which used the SGD optimizer with a learning rate of 1e-6 and an epsilon of 1e-8, achieved an accuracy of 71% on the test dataset.
+
+During the training process, we utilized two important callbacks to enhance the model's performance:
+
+1. **EarlyStopping:** EarlyStopping stopped the training process if there was no improvement in the validation accuracy after a certain number of epochs. This helped prevent unnecessary computations and overfitting.
+
+2. **ReduceLROnPlateau:** ReduceLROnPlateau reduced the learning rate when the validation loss stopped improving. This adaptive learning rate adjustment further improved the model's convergence and performance.
+
+Overall, the results highlighted the significance of the optimizer and learning rate choices in determining the model's performance. Using the Adam optimizer with a lower learning rate and epsilon achieved the best accuracy. Additionally, the utilization of EarlyStopping and ReduceLROnPlateau callbacks contributed to preventing overfitting and enhancing the overall model performance.
 
