@@ -102,7 +102,7 @@ The key innovation in the Transformer architecture is the self-attention mechani
 <p align="center">
   <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/The%20architecture%20RoBERTa%20model.png" alt="alt text" width="width" height="height" />
   <br>
-  <em>Figure 4: The Architecture of the proposed model.</em>
+  <em>Figure 4: The architecture RoBERTa model.</em>
 </p>
 
 
@@ -129,7 +129,7 @@ Overall, the model architecture is shown by Figure 5, takes advantage of the sta
 <p align="center">
   <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/The%20Architecture%20of%20the%20proposed%20model.png" alt="alt text" width="width" height="height" />
   <br>
-  <em>Figure 4: The Architecture of the proposed model.</em>
+  <em>Figure 5: The Architecture of the proposed model.</em>
 </p>
 ## Results
 
