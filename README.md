@@ -143,7 +143,7 @@ After training the model with different configurations, we evaluated the model's
 | 2            | RMSprop            | 1e-6          | 1e-8     | 78%      |
 | 3            | SGD                | 1e-6          | 1e-8     | 71%      |
 
-As we can see from the table, the best configuration was the first one, which used the Adam optimizer with a learning rate of 1e-7 and an epsilon of 1e-8. This configuration achieved an accuracy of 82% on the test dataset (see Figure 17).
+As we can see from the table, the best configuration was the first one, which used the Adam optimizer with a learning rate of 1e-7 and an epsilon of 1e-8. This configuration achieved an accuracy of 82% on the test dataset (see Figure 6).
 
 The second configuration, which used the RMSprop optimizer with a learning rate of 1e-6 and an epsilon of 1e-8, achieved an accuracy of 78% on the test dataset. Meanwhile, the third configuration, which used the SGD optimizer with a learning rate of 1e-6 and an epsilon of 1e-8, achieved an accuracy of 71% on the test dataset.
 
@@ -155,3 +155,8 @@ During the training process, we utilized two important callbacks to enhance the 
 
 Overall, the results highlighted the significance of the optimizer and learning rate choices in determining the model's performance. Using the Adam optimizer with a lower learning rate and epsilon achieved the best accuracy. Additionally, the utilization of EarlyStopping and ReduceLROnPlateau callbacks contributed to preventing overfitting and enhancing the overall model performance.
 
+<p align="center">
+  <img src="https://github.com/IssamSayyaf/Contradictory-Text-Analysis-NLP-Deep-Learning-/blob/main/images/Training%20Progress%20Evolution%20of%20Accuracy%20and%20Loss%20over%20Epochs.png" alt="alt text" width="width" height="height" />
+  <br>
+  <em>Figure 6: Training Progress Evolution of Accuracy and Loss over Epochs.</em>
+</p>
